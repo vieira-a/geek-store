@@ -16,6 +16,7 @@
 
 - [RFC 1 - Organização do Projeto](https://github.com/vieira-a/geek-store/blob/main/docs/rfc/rfc-1-organizacao-projeto.md)
 - [RFC 2 - Segurança na API de Produtos](https://github.com/vieira-a/geek-store/blob/main/docs/rfc/rfc2-seguranca-api-produtos.md)
+- [RFC 3 - Arquitetura simplificada do backend](https://github.com/vieira-a/geek-store/blob/main/docs/rfc/rfc3-arquitetura-simplificada-backend.md)
 
 ## Repositórios
 
