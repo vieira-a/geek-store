@@ -1,4 +1,4 @@
-# RFC 1 - Segurança de Dados da API - Produtos
+# RFC 2 - Segurança de Dados da API - Produtos
 
 - [Motivação](#motivação)
 - [Contexto](#contexto)
