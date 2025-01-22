@@ -1,4 +1,4 @@
-# Organização do Projeto Geek Store
+# RFC 1 - Organização do Projeto Geek Store
 
 - [Motivação](#motivação)
 - [Contexto](#contexto)
