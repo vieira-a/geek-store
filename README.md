@@ -18,6 +18,7 @@
 - [RFC 2 - Segurança na API de Produtos](https://github.com/vieira-a/geek-store/blob/main/docs/rfc/rfc2-seguranca-api-produtos.md)
 - [RFC 3 - Arquitetura simplificada do backend](https://github.com/vieira-a/geek-store/blob/main/docs/rfc/rfc3-arquitetura-simplificada-backend.md)
 - [RFC 4 - Tratamento de erros no backend](https://github.com/vieira-a/geek-store/blob/main/docs/rfc/rfc4-tratamento-de-erros.md)
+- [RFC 5 - Segurança na API de Carrinho de Compras](https://github.com/vieira-a/geek-store/blob/main/docs/rfc/rfc5-seguranca-api-carrinho-de-compra.md)
 
 ## Repositórios
 
