@@ -20,6 +20,7 @@
 - [RFC 4 - Tratamento de erros no backend](https://github.com/vieira-a/geek-store/blob/main/docs/rfc/rfc4-tratamento-de-erros.md)
 - [RFC 5 - Segurança na API de Carrinho de Compras](https://github.com/vieira-a/geek-store/blob/main/docs/rfc/rfc5-seguranca-api-carrinho-de-compra.md)
 - [RFC 6 - Atualização do Carrinho de Compras](https://github.com/vieira-a/geek-store/blob/main/docs/rfc/rfc6-atualizacao-carrinho-compras.md)
+- [RFC 7 - Mesclagem do Carrinho de Compras](https://github.com/vieira-a/geek-store/blob/main/docs/rfc/rfc7-mesclagem-carrinho-de-compra.md)
 
 ## Repositórios
 
