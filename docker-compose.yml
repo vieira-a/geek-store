@@ -1,0 +1,56 @@
+version: "3.8"
+
+services:
+  mongodb:
+    image: mongo:latest
+    container_name: geek-store-mongodb
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ${MONGO_INITDB_ROOT_USERNAME}
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_INITDB_ROOT_PASSWORD}
+      MONGO_INITDB_DATABASE: ${MONGO_INITDB_DATABASE}
+    volumes:
+      - mongodb_data:/data/db
+    networks:
+      - geekstore-network
+  backend:
+    build:
+      context: ./geek-store-backend
+      dockerfile: Dockerfile
+    container_name: geek-store-backend
+    environment:
+      - NODE_ENV=production
+      - MONGODB_URI=${MONGODB_URI}
+      - MONGODB_DATABASE=${MONGODB_DATABASE}
+      - ENCRYPT_SALT=${ENCRYPT_SALT}
+      - JWT_SECRET=${JWT_SECRET}
+      - CORS_ORIGIN=${CORS_ORIGIN}
+      - PORT=3001
+    ports:
+      - "3001:3001"
+    depends_on:
+      - mongodb
+    networks:
+      - geekstore-network
+
+  frontend:
+    build:
+      context: ./geek-store-frontend
+      dockerfile: Dockerfile
+    container_name: geek-store-frontend
+    environment:
+      - NODE_ENV=production
+      - NEXT_PUBLIC_GEEKSTORE_API_URL=${NEXT_PUBLIC_GEEKSTORE_API_URL}
+    ports:
+      - "3002:3000"
+    depends_on:
+      - backend
+    networks:
+      - geekstore-network
+
+networks:
+  geekstore-network:
+    driver: bridge
+
+volumes:
+  mongodb_data:
+    driver: local
