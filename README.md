@@ -21,6 +21,7 @@
 - [RFC 5 - Segurança na API de Carrinho de Compras](https://github.com/vieira-a/geek-store/blob/main/docs/rfc/rfc5-seguranca-api-carrinho-de-compra.md)
 - [RFC 6 - Atualização do Carrinho de Compras](https://github.com/vieira-a/geek-store/blob/main/docs/rfc/rfc6-atualizacao-carrinho-compras.md)
 - [RFC 7 - Mesclagem do Carrinho de Compras](https://github.com/vieira-a/geek-store/blob/main/docs/rfc/rfc7-mesclagem-carrinho-de-compra.md)
+- [RFC 8 - Justificativa para não cumprimento de algumas etapas do desafio técnico](https://github.com/vieira-a/geek-store/blob/main/docs/rfc/rfc8-justificativa.md)
 
 ## Repositórios
 
